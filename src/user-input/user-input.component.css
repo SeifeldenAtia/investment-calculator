@@ -11,6 +11,7 @@ form {
   display: flex;
   justify-content: space-evenly;
   gap: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 label {
@@ -38,11 +39,14 @@ button {
   border: 1px solid #76c0ae;
   border-radius: 0.25rem;
   background-color: #83e6c0;
-  color: #1a1f1d;
+  color: #307e6c;
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
+}
+button.buttonAlt {
+  margin-top: 0.6rem;
 }
 
 button:hover {
